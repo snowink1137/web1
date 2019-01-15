@@ -130,6 +130,76 @@
             <td rowspan="2">폴킴</td>
         </tr>
     </table>
+    <hr>
+    <h3>Form</h3>
+    <p>자기소개하기</p>
+    <form action="./index.html" >
+
+        <div>
+            이름: <input type="text" placeholder="이름을 입력해라" name="name"/>
+        </div>
+        
+        <div>
+            나이: <input type="number" name="age"/>
+        </div>
+
+        <div>
+            Phone: <input type="text" name="phone"/>
+        </div>
+
+        <div>
+            자기소개: <textarea name="intro"></textarea>
+        </div>
+        
+        <div>
+            <input type="submit" value="제출" />
+        </div>
+        <hr>
+        <p>주문서를 작성해 주세요</p>
+        <form action="./index.html">
+            <div>
+                이름: <input type="text" placeholder="이름을 입력해라" name="name" autofocus>
+            </div>
+
+            <div>
+                날짜: <input type="date" name="date">
+            </div>
+
+            <p><strong>1. 샌드위치 선택</strong></p>
+            <div>
+                <!-- 라디오 -->
+                <input type="radio" name="sand" value="스테이크"> 스테이크<br>
+                <input type="radio" name="sand" value="터키 아보카도"> 터키 아보카도<br>
+                <input type="radio" name="sand" value="미트볼"> 미트볼
+            </div>
+
+            <p><strong>2. 사이즈 선택</strong></p>
+            <div>
+                <input type="number" min="15" max="30" step="15" >
+            </div>
+
+            <p><strong>3. 빵</strong></p>
+            <div>
+                <!-- 옵션 -->
+                <select name="bread">
+                    <option value="oat">허니오트</option>
+                    <option value="flat">플랫브레드</option>
+                    <option value="hatti">하티 이탈리안</option>
+                </select>
+            </div>
+            <p><strong>4. 소스</strong></p>
+            <div>
+                <!-- 체크박스 -->
+                <input type="checkbox" name="option" value="hot"> hot chili<br>
+                <input type="checkbox" name="option" value="sweet"> sweet chili<br>
+                <input type="checkbox" name="option" value="radish"> radish<br>
+                <input type="checkbox" name="option" value="ranch"> ranch<br>
+                <input type="checkbox" name="option" value="onion"> sweet onion
+            </div>
+            <input type="submit" value="Subway">
+        </form>
+
+    </form>
 
 
 </body>

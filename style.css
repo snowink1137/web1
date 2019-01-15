@@ -1,0 +1,27 @@
+a {
+    color: red;
+}
+
+.bio-box a {
+    color: green;
+}
+
+#exec-bio {
+    background-color: lightgray;
+}
+
+.bio-box {
+    border: 1px solid black;
+}
+
+#link-google {
+    background-color: orange;
+}
+
+.bio-h2 {
+    background-color: azure;
+}
+
+/* 아무 a tag 를 잡아서 아무 id 를 주고 id로 select 하여 배경색 오렌지를 주세요 */
+
+/* 모든 .bio-box 클래스를 가진 요소들에 추가로 아무 class를 주고, class로 select 하여 배경색 azure 를 적용하자  */
